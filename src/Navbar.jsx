@@ -25,6 +25,7 @@ export default function Navbar() {
             Tohpong Kijjanulak
           </Typography>
           <Button color="inherit">Login</Button>
+          <Button color="inherit">Setting</Button>
         </Toolbar>
       </AppBar>
     </Box>
