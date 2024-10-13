@@ -22,7 +22,7 @@ export default function Navbar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            AJ Suriya 
+            Tohpong Kijjanulak
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>

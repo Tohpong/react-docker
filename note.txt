@@ -1,0 +1,23 @@
+npm install
+npm run dev //รันเว็บ
+(ต้องโหลดNode.js มาด้วย โดยการไปดาวน์โหลดมา จากเว็บ node แล้วก็กด Next รัวๆ)
+npm -v //เช็คเวอร์ชั่น
+
+boxygenn/react-docker-test4
+
+docker build -t boxygenn/react-docker-test4:0.1 .
+
+docker images //ดู images ในเครื่อง
+-d ไม่ค้าง
+-p portไหน
+
+
+docker run -d -p 3000: 3000 --name react-docker boxygenn/react-docker-test4:0.1
+docker stop react-docker
+docker rm react-docker
+docker login 
+
+git remote -v
+git remote remove origin
+
+git remote add origin https://github.com/Tohpong/react-docker.git
